@@ -4,35 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="afdb99b7-bc37-4bb1-bb50-dc72f70fc97c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Others/ReverseArray/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Others/ReverseArrayWithFrequencyCount/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Others/RotateArray/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Others/SpiralMatrix/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Tests/StringReduction/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/EvaluateReversePolishNotation/AcceptedSolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Book/EvaluateReversePolishNotation/AcceptedSolution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/EvaluateReversePolishNotation/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Book/EvaluateReversePolishNotation/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/EvaluateReversePolishNotation/NaiveApproach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Book/EvaluateReversePolishNotation/NaiveApproach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/EvaluateReversePolishNotation/Strategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Book/EvaluateReversePolishNotation/Strategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/IsomorphicStrings/JavaSolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Book/IsomorphicStrings/JavaSolution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/IsomorphicStrings/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Book/IsomorphicStrings/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MedianOfTwoSortedArrays/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Book/MedianOfTwoSortedArrays/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RotateArray/BubbleRotate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Book/RotateArray/BubbleRotate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RotateArray/IntermediateArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Book/RotateArray/IntermediateArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RotateArray/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Book/RotateArray/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RotateArray/Reversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Book/RotateArray/Reversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RotateArray/Strategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Book/RotateArray/Strategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WordLadder/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Book/WordLadder/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WordLadder/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Book/WordLadder/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WordLadder/WordNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Book/WordLadder/WordNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WordLadderII/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Book/WordLadderII/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WordLadderII/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Book/WordLadderII/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WordLadderII/WordNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Book/WordLadderII/WordNode.java" afterDir="false" />
-    </list>
+    <list default="true" id="afdb99b7-bc37-4bb1-bb50-dc72f70fc97c" name="Changes" comment="added new algorithms and classified them" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,23 +51,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.runAll.executor": "Run",
-    "Gradle.Build interview.executor": "Run",
-    "Gradle.interview [:Exercise.main()].executor": "Run",
-    "Gradle.interview [:Main.main()].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "jdk.selected.JAVA_MODULE": "11.0.4",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/luisj/workspace/interview",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.runAll.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build interview.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.interview [:Exercise.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.interview [:Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11.0.4&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/luisj/workspace/interview&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/WordLadderII" />
@@ -135,6 +107,19 @@
       <option name="presentableId" value="Default" />
       <updated>1704991387143</updated>
     </task>
+    <task id="LOCAL-00001" summary="added new algorithms and classified them">
+      <option name="closed" value="true" />
+      <created>1709189838006</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1709189838006</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added new algorithms and classified them" />
+    <option name="LAST_COMMIT_MESSAGE" value="added new algorithms and classified them" />
   </component>
 </project>
