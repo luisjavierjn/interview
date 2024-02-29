@@ -1,4 +1,4 @@
-package RotateArray;
+package Book.RotateArray;
 
 // However, the time is O(n*k)
 public class BubbleRotate implements Strategy {

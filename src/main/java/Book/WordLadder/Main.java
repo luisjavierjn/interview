@@ -1,4 +1,4 @@
-package WordLadder;
+package Book.WordLadder;
 
 import java.util.HashSet;
 import java.util.Set;

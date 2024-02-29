@@ -1,4 +1,4 @@
-package IsomorphicStrings;
+package Book.IsomorphicStrings;
 
 import java.util.HashMap;
 import java.util.Map;

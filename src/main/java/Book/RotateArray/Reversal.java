@@ -1,4 +1,4 @@
-package RotateArray;
+package Book.RotateArray;
 
 // we do this in O(1) space and in O(n) time
 // the array [1,2,3,4,5,6] and order is 2

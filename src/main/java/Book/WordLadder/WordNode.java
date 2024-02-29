@@ -1,4 +1,4 @@
-package WordLadder;
+package Book.WordLadder;
 
 class WordNode {
     String word;

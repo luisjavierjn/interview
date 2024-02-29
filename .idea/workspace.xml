@@ -4,7 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="afdb99b7-bc37-4bb1-bb50-dc72f70fc97c" name="Changes" comment="" />
+    <list default="true" id="afdb99b7-bc37-4bb1-bb50-dc72f70fc97c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Others/ReverseArray/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Others/ReverseArrayWithFrequencyCount/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Others/RotateArray/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Others/SpiralMatrix/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Tests/StringReduction/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/EvaluateReversePolishNotation/AcceptedSolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Book/EvaluateReversePolishNotation/AcceptedSolution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/EvaluateReversePolishNotation/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Book/EvaluateReversePolishNotation/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/EvaluateReversePolishNotation/NaiveApproach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Book/EvaluateReversePolishNotation/NaiveApproach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/EvaluateReversePolishNotation/Strategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Book/EvaluateReversePolishNotation/Strategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/IsomorphicStrings/JavaSolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Book/IsomorphicStrings/JavaSolution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/IsomorphicStrings/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Book/IsomorphicStrings/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MedianOfTwoSortedArrays/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Book/MedianOfTwoSortedArrays/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RotateArray/BubbleRotate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Book/RotateArray/BubbleRotate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RotateArray/IntermediateArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Book/RotateArray/IntermediateArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RotateArray/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Book/RotateArray/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RotateArray/Reversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Book/RotateArray/Reversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RotateArray/Strategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Book/RotateArray/Strategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WordLadder/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Book/WordLadder/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WordLadder/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Book/WordLadder/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WordLadder/WordNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Book/WordLadder/WordNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WordLadderII/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Book/WordLadderII/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WordLadderII/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Book/WordLadderII/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WordLadderII/WordNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Book/WordLadderII/WordNode.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,12 +43,36 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="interview" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2aoiZW12fYessBMi83w85As36ZW" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -29,11 +81,51 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.runAll.executor": "Run",
+    "Gradle.Build interview.executor": "Run",
+    "Gradle.interview [:Exercise.main()].executor": "Run",
+    "Gradle.interview [:Main.main()].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true"
+    "jdk.selected.JAVA_MODULE": "11.0.4",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/luisj/workspace/interview",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/WordLadderII" />
+      <recent name="$PROJECT_DIR$/src/main/java/WordLadder" />
+      <recent name="$PROJECT_DIR$/src/main/java/RotateArray" />
+      <recent name="$PROJECT_DIR$/src/main/java/IsomorphicStrings" />
+      <recent name="$PROJECT_DIR$/src/main/java/EvaluateReversePolishNotation" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="runAll" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="11.0.4" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="interview.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-1.8.0_392-corretto-1.8.0_392-f644763e9732-5759c461" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

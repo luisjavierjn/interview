@@ -1,4 +1,4 @@
-package WordLadder;
+package Book.WordLadder;
 
 import java.util.LinkedList;
 import java.util.Set;

@@ -1,4 +1,4 @@
-package RotateArray;
+package Book.RotateArray;
 
 // Space is O(n) and time is O(n).
 // You can check out the difference between System.arraycopy() and Arrays.copyOf()

@@ -1,4 +1,4 @@
-package WordLadderII;
+package Book.WordLadderII;
 
 import java.util.*;
 
