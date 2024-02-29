@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="afdb99b7-bc37-4bb1-bb50-dc72f70fc97c" name="Changes" comment="updated StaticInitialization">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Tests/Categories/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Traps/SystemExit/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="afdb99b7-bc37-4bb1-bb50-dc72f70fc97c" name="Changes" comment="updated packages names">
+      <change beforePath="$PROJECT_DIR$/src/main/java/Tests/Categories/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Tests/PrintCategories/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +170,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709235464517</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="updated packages names">
+      <option name="closed" value="true" />
+      <created>1709238440717</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1709238440717</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -184,6 +189,7 @@
     <MESSAGE value="added new code and traps" />
     <MESSAGE value="updated .gitignore" />
     <MESSAGE value="updated StaticInitialization" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated StaticInitialization" />
+    <MESSAGE value="updated packages names" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated packages names" />
   </component>
 </project>

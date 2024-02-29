@@ -1,4 +1,4 @@
-package Tests.Categories;
+package Tests.PrintCategories;
 
 // Please complete the following exercise using Java Programming Language.
 // Your solution should compile and execute successfully.
