@@ -1,4 +1,4 @@
-package Traps.ThreadOrder;
+package Questions.ThreadOrder;
 
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ExecutorService;

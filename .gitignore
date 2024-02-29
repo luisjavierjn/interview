@@ -5,6 +5,8 @@ build/
 !**/src/test/**/build/
 
 ### IntelliJ IDEA ###
+.idea
+.idea/workspace.xml
 .idea/InsidiousPlugin.xml
 .idea/uiDesigner.xml
 .idea/modules.xml

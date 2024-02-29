@@ -1,4 +1,4 @@
-package Traps.StaticInitialization;
+package Questions.StaticInitialization;
 
 // What is the printed output?
 // Expected Output Value: 50

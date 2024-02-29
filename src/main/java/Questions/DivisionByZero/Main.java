@@ -1,4 +1,4 @@
-package Traps.DivisionByZero;
+package Questions.DivisionByZero;
 
 public class Main {
 

@@ -1,4 +1,4 @@
-package Traps.SumOrConcatenation;
+package Questions.SumOrConcatenation;
 
 public class Main {
 

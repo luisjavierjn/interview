@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="afdb99b7-bc37-4bb1-bb50-dc72f70fc97c" name="Changes" comment="updated .gitignore">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Traps/DivisionByZero/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Traps/SumOrConcatenation/Main.java" afterDir="false" />
+    <list default="true" id="afdb99b7-bc37-4bb1-bb50-dc72f70fc97c" name="Changes" comment="updated StaticInitialization">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Tests/Categories/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Traps/SystemExit/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Traps/StaticInitialization/StaticInitialization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Traps/StaticInitialization/StaticInitialization.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,13 +51,16 @@
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2aoiZW12fYessBMi83w85As36ZW" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.runAll.executor": "Run",
     "Gradle.Build interview.executor": "Run",
     "Gradle.interview [:Exercise.main()].executor": "Run",
@@ -163,15 +165,25 @@
       <option name="project" value="LOCAL" />
       <updated>1709234490332</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="updated StaticInitialization">
+      <option name="closed" value="true" />
+      <created>1709235464517</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1709235464517</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="added new algorithms and classified them" />
     <MESSAGE value="fixed format" />
     <MESSAGE value="added .idea to .gitignore" />
     <MESSAGE value="added new code and traps" />
     <MESSAGE value="updated .gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated .gitignore" />
+    <MESSAGE value="updated StaticInitialization" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated StaticInitialization" />
   </component>
 </project>

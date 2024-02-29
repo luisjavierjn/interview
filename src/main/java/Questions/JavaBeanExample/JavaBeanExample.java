@@ -1,4 +1,4 @@
-package Traps.JavaBeanExample;
+package Questions.JavaBeanExample;
 
 import java.io.Serializable;
 
