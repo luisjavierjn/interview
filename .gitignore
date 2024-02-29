@@ -6,6 +6,8 @@ build/
 
 ### IntelliJ IDEA ###
 .idea/workspace.xml
+.idea/InsidiousPlugin.xml
+.idea/uiDesigner.xml
 .idea/modules.xml
 .idea/jarRepositories.xml
 .idea/compiler.xml

@@ -5,7 +5,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 
-// What's the output?
+// What's the output? is there an order?
 public class Main {
 
     public static void main(String[] args) throws ExecutionException, InterruptedException {

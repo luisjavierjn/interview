@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="afdb99b7-bc37-4bb1-bb50-dc72f70fc97c" name="Changes" comment="added .idea to .gitignore">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Tests/BalancedBraces/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Tests/TwoSum/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Traps/JavaBeanExample/JavaBeanExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Traps/ThreadOrder/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="afdb99b7-bc37-4bb1-bb50-dc72f70fc97c" name="Changes" comment="updated .gitignore" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,6 +58,7 @@
     "Gradle.interview [:Exercise.main()].executor": "Run",
     "Gradle.interview [:JavaBeanExample.main()].executor": "Run",
     "Gradle.interview [:Main.main()].executor": "Run",
+    "Gradle.interview [:StaticInitialization.main()].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "jdk.selected.JAVA_MODULE": "11.0.4",
@@ -139,13 +133,31 @@
       <option name="project" value="LOCAL" />
       <updated>1709190279086</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added new code and traps">
+      <option name="closed" value="true" />
+      <created>1709234302777</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1709234302777</updated>
+    </task>
+    <task id="LOCAL-00005" summary="updated .gitignore">
+      <option name="closed" value="true" />
+      <created>1709234348202</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1709234348202</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added new algorithms and classified them" />
     <MESSAGE value="fixed format" />
     <MESSAGE value="added .idea to .gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="added .idea to .gitignore" />
+    <MESSAGE value="added new code and traps" />
+    <MESSAGE value="updated .gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated .gitignore" />
   </component>
 </project>
