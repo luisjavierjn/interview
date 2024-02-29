@@ -33,12 +33,8 @@ import java.util.concurrent.CopyOnWriteArraySet;
 import java.util.concurrent.DelayQueue;
 import java.util.concurrent.Delayed;
 import java.util.concurrent.ExecutionException;
-import java.util.concurrent.Executor;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-import java.util.concurrent.Future;
-import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.LinkedBlockingDeque;
+import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.LinkedTransferQueue;
 import java.util.concurrent.PriorityBlockingQueue;
 import java.util.concurrent.SynchronousQueue;
@@ -187,7 +183,7 @@ public class Main {
         // ConcurrentHashMap, ConcurrentLinkedQueue...
         // AtomicInteger..., volatile keyword
 
-/*
+        /*
         // Crear un PriorityQueue de Personas
         PriorityQueue<Persona> colaPrioridad = new PriorityQueue<>();
 
@@ -201,68 +197,6 @@ public class Main {
         while (!colaPrioridad.isEmpty()) {
             System.out.println(colaPrioridad.poll());
         }
- */
-
-        Request[] requests = {
-                new Request("Luis A", 100),
-                new Request("Jose B", 300),
-                new Request("Manu C", 200)
-        };
-
-        for (Request req : requests) {
-            String name = RequestProcessor.getInstance().check(req).get();
-            System.out.println(name);
-        }
-        System.out.println("End of the process");
-
-    }
-}
-
-class Request {
-    private String name;
-    private int delay;
-
-    public Request(String name, int delay) {
-        this.name = name;
-        this.delay = delay;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public int getDelay() {
-        return delay;
-    }
-
-    public void setDelay(int delay) {
-        this.delay = delay;
-    }
-}
-
-class RequestProcessor {
-    private RequestProcessor() {}
-    private static RequestProcessor _instance;
-    public static RequestProcessor getInstance() {
-        if (_instance == null) {
-            _instance = new RequestProcessor();
-        }
-        return _instance;
-    }
-    private ExecutorService executor = Executors.newFixedThreadPool(5);
-    Future<String> check(Request req) {
-        return executor.submit(() -> {
-            try {
-                Thread.sleep(req.getDelay());
-                return "Processed request: " + req.getName();
-            } catch (InterruptedException e) {
-                Thread.currentThread().interrupt();
-                return "Failed to process request: " + req.getName();
-            }
-        });
+        */
     }
 }
