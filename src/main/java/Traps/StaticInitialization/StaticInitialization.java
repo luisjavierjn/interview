@@ -1,5 +1,6 @@
 package Traps.StaticInitialization;
 
+// What is the printed output?
 // Expected Output Value: 50
 public class StaticInitialization {
     private static final int MULTIPLIER;
@@ -7,6 +8,7 @@ public class StaticInitialization {
 
     static {
         MULTIPLIER = 10;
+        System.out.println("static block");
     }
 
     private static int getInitialValue() {
