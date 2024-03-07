@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="afdb99b7-bc37-4bb1-bb50-dc72f70fc97c" name="Changes" comment="added more code examples">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Questions/BadMethodOutput/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Questions/DesignPatterns/Mystery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Tests/FreshService/Main.java" afterDir="false" />
+    <list default="true" id="afdb99b7-bc37-4bb1-bb50-dc72f70fc97c" name="Changes" comment="added Questions.CallArray">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Tests/CheckAnagram/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,28 +56,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.runAll.executor": "Run",
-    "Gradle.Build interview.executor": "Run",
-    "Gradle.interview [:Exercise.main()].executor": "Run",
-    "Gradle.interview [:JavaBeanExample.main()].executor": "Run",
-    "Gradle.interview [:Main.main()].executor": "Run",
-    "Gradle.interview [:Solution.main()].executor": "Run",
-    "Gradle.interview [:StaticInitialization.main()].executor": "Run",
-    "Gradle.interview [:TipTop.main()].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "jdk.selected.JAVA_MODULE": "11.0.4",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/luisj/workspace/interview",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.runAll.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build interview.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.interview [:Exercise.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.interview [:JavaBeanExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.interview [:Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.interview [:Solution.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.interview [:StaticInitialization.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.interview [:TipTop.main()].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11.0.4&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/luisj/workspace/interview&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/WordLadderII" />
@@ -223,7 +221,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709586505883</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="added Questions.CallArray">
+      <option name="closed" value="true" />
+      <created>1709587325840</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1709587325840</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -237,6 +243,7 @@
     <MESSAGE value="updated packages names" />
     <MESSAGE value="added code" />
     <MESSAGE value="added more code examples" />
-    <option name="LAST_COMMIT_MESSAGE" value="added more code examples" />
+    <MESSAGE value="added Questions.CallArray" />
+    <option name="LAST_COMMIT_MESSAGE" value="added Questions.CallArray" />
   </component>
 </project>
