@@ -4,13 +4,13 @@ public class Main {
     public static void main(String[] args) {
         try {
             badMethod();
-            System.out.println("A");
+            System.out.print("A");
         } catch (Exception ex) {
-            System.out.println("B");
+            System.out.print("B");
         } finally {
-            System.out.println("C");
+            System.out.print("C");
         }
-        System.out.println("D");
+        System.out.print("D");
     }
 
     private static void badMethod() {
