@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="afdb99b7-bc37-4bb1-bb50-dc72f70fc97c" name="Changes" comment="added Questions.CheckAnagram">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Tests/OrderedKeys/Main.java" afterDir="false" />
+    <list default="true" id="afdb99b7-bc37-4bb1-bb50-dc72f70fc97c" name="Changes" comment="added Tests.OrderedKeys">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Questions/DataTypeCheck/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Questions/ParallelStream/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Questions/StaticBlock/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -245,7 +248,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709785849674</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="added Tests.OrderedKeys">
+      <option name="closed" value="true" />
+      <created>1709860552325</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1709860552325</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -261,6 +272,7 @@
     <MESSAGE value="added more code examples" />
     <MESSAGE value="added Questions.CallArray" />
     <MESSAGE value="added Questions.CheckAnagram" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Questions.CheckAnagram" />
+    <MESSAGE value="added Tests.OrderedKeys" />
+    <option name="LAST_COMMIT_MESSAGE" value="added Tests.OrderedKeys" />
   </component>
 </project>
