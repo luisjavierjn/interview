@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="afdb99b7-bc37-4bb1-bb50-dc72f70fc97c" name="Changes" comment="added Tests.ContainerWithMostWater">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Questions/MathCharOperations/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Tests/TwoStringsAnagram/Main.java" afterDir="false" />
+    <list default="true" id="afdb99b7-bc37-4bb1-bb50-dc72f70fc97c" name="Changes" comment="added Tests.TwoStringAnagram">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -286,7 +284,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710205250404</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="added Tests.TwoStringAnagram">
+      <option name="closed" value="true" />
+      <created>1710607575063</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1710607575063</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -306,6 +312,7 @@
     <MESSAGE value="added Questions" />
     <MESSAGE value="modified Questions.BadMethodOutput" />
     <MESSAGE value="added Tests.ContainerWithMostWater" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Tests.ContainerWithMostWater" />
+    <MESSAGE value="added Tests.TwoStringAnagram" />
+    <option name="LAST_COMMIT_MESSAGE" value="added Tests.TwoStringAnagram" />
   </component>
 </project>

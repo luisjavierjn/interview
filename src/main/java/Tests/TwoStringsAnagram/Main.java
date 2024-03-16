@@ -92,11 +92,38 @@ public class Main {
         return Arrays.stream(count).map(Math::abs).sum() / 2;
     }
 
+    // chatgpt
+    public static int minStepsToMakeAnagram(String s1, String s2) {
+        // Contadores de frecuencia para cada cadena
+        int[] count1 = new int[26];
+        int[] count2 = new int[26];
+
+        // Llenar los contadores para s1
+        for (int i = 0; i < s1.length(); i++) {
+            count1[s1.charAt(i) - 'a']++;
+        }
+
+        // Llenar los contadores para s2
+        for (int i = 0; i < s2.length(); i++) {
+            count2[s2.charAt(i) - 'a']++;
+        }
+
+        // Calcular el número de cambios necesarios
+        int steps = 0;
+        for (int i = 0; i < 26; i++) {
+            steps += Math.abs(count1[i] - count2[i]);
+        }
+
+        // Dividir por 2 ya que cada cambio afecta a ambos strings
+        return steps / 2;
+    }
+
     public static void main(String[] args) {
         String s1 = "ddcf";
         String s2 = "cedk";
         System.out.println(countManipulations(s1, s2));
         System.out.println(minSteps(s1,s2));
         System.out.println(minSteps2(s1,s2));
+        System.out.println(minStepsToMakeAnagram(s1,s2));
     }
 }
