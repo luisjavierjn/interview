@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="afdb99b7-bc37-4bb1-bb50-dc72f70fc97c" name="Changes" comment="added Tests.TwoStringAnagram">
+    <list default="true" id="afdb99b7-bc37-4bb1-bb50-dc72f70fc97c" name="Changes" comment="added algorithm to Tests.TwoStringAnagram">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -103,7 +104,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-1.8.0_392-corretto-1.8.0_392-f644763e9732-5759c461" />
+        <option value="jdk-1.8.0_402-corretto-1.8.0_402-4caba194b151-a39a91d7" />
       </set>
     </attachedChunks>
   </component>
@@ -292,7 +293,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710607575063</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="added algorithm to Tests.TwoStringAnagram">
+      <option name="closed" value="true" />
+      <created>1710608208988</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1710608208989</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -313,6 +322,7 @@
     <MESSAGE value="modified Questions.BadMethodOutput" />
     <MESSAGE value="added Tests.ContainerWithMostWater" />
     <MESSAGE value="added Tests.TwoStringAnagram" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Tests.TwoStringAnagram" />
+    <MESSAGE value="added algorithm to Tests.TwoStringAnagram" />
+    <option name="LAST_COMMIT_MESSAGE" value="added algorithm to Tests.TwoStringAnagram" />
   </component>
 </project>
