@@ -2,7 +2,7 @@ package Others.ReverseArray;
 
 import java.util.Arrays;
 
-// 🚀 Java Coding Mastery Series: Reverse #array problem in #java 🌐
+// 🚀 Java Coding Mastery Series: Reverse #array problem in #java
 // https://www.youtube.com/watch?v=o_hNrb2XlGw
 public class Main {
 

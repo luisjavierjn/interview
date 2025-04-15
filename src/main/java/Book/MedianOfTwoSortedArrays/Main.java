@@ -5,10 +5,10 @@ package Book.MedianOfTwoSortedArrays;
 //
 // 6.1 Java Solution 1
 // If we see log(n), we should think about using binary something.
-// This problem can be converted to the problem of ﬁnding kth element, k is (A’s
+// This problem can be converted to the problem of finding kth element, k is (A’s
 // length + B’ Length)/2.
 // If any of the two arrays is empty, then the kth element is the non-empty array’s kth
-// element. If k == 0, the kth element is the ﬁrst element of A or B.
+// element. If k == 0, the kth element is the first element of A or B.
 // For normal cases(all other cases), we need to move the pointer at the pace of half of
 // an array length to get log(n) time.
 public class Main {
@@ -60,8 +60,8 @@ public class Main {
 }
 
 // 6.2 Java Solution 2
-// Solution 1 is a general solution to ﬁnd the kth element. We can also come up with a
-// simpler solution which only ﬁnds the median of two sorted arrays for this particular
+// Solution 1 is a general solution to find the kth element. We can also come up with a
+// simpler solution which only finds the median of two sorted arrays for this particular
 // problem. Thanks to Gunner86. The description of the algorithm is awesome!
 // 1) Calculate the medians m1 and m2 of the input arrays ar1[] and ar2[]
 // respectively.

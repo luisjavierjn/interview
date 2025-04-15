@@ -55,11 +55,11 @@ public class Main {
 
         // Correr cada ejemplo
         for (int[] nivelesConcursantes : ejemplosConcursantes) {
-            System.out.println(calcularTamañoDelGrupoMásPequeño(nivelesConcursantes));
+            System.out.println(calcularTamanoDelGrupoMasPequeno(nivelesConcursantes));
         }
     }
 
-    private static int calcularTamañoDelGrupoMásPequeño(int[] niveles) {
+    private static int calcularTamanoDelGrupoMasPequeno(int[] niveles) {
         Arrays.sort(niveles); // Ordenar los niveles de los concursantes
 
         // HashMap para almacenar el tamaño de cada equipo. La clave es el nivel más bajo del equipo.
@@ -75,13 +75,13 @@ public class Main {
         }
 
         // Encontrar el tamaño del equipo más pequeño
-        int tamañoMínimo = Integer.MAX_VALUE;
-        for (int tamaño : equipos.values()) {
-            if (tamaño < tamañoMínimo) {
-                tamañoMínimo = tamaño;
+        int tamanoMinimo = Integer.MAX_VALUE;
+        for (int tamano : equipos.values()) {
+            if (tamano < tamanoMinimo) {
+                tamanoMinimo = tamano;
             }
         }
 
-        return tamañoMínimo == Integer.MAX_VALUE ? 0 : tamañoMínimo; // Devolver 0 si no hay equipos
+        return tamanoMinimo == Integer.MAX_VALUE ? 0 : tamanoMinimo; // Devolver 0 si no hay equipos
     }
 }
