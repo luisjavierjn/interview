@@ -2,7 +2,6 @@ package Concurrency.ReentrantReadWriteLock;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 
@@ -14,10 +13,10 @@ public class LockExample {
   private static final List<String> resource = new ArrayList<>();
 
   public static void main(String... reentrantLock) {
-    final Thread thread1 = new Thread(() -> readResource("A", 0));
+    final Thread thread1 = new Thread(() -> readResource("A"));
     final Thread thread2 = new Thread(() -> writeResource("B"));
-    final Thread thread3 = new Thread(() -> readResource("C", 500));
-    final Thread thread4 = new Thread(() -> readResource("D", 100));
+    final Thread thread3 = new Thread(() -> readResource("C"));
+    final Thread thread4 = new Thread(() -> readResource("D"));
 
     thread1.start();
     thread2.start();
@@ -25,13 +24,10 @@ public class LockExample {
     thread4.start();
   }
 
-  private static void readResource(String id, int timeout) {
+  private static void readResource(String id) {
     readLock.lock();
     try {
       System.out.println("id: " + id + " reading from the resource..." + resource + " number: " + lock.getReadLockCount());
-      TimeUnit.MILLISECONDS.sleep(timeout);
-    } catch (final InterruptedException e) {
-      throw new RuntimeException(e);
     } finally {
       readLock.unlock();
     }
