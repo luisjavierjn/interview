@@ -56,4 +56,6 @@ public class LockExample {
  * read from the resource while it is being written to. This approach allows for better concurrency and performance in
  * scenarios where there are more read operations than write operations, as it allows multiple threads to read from the
  * resource without blocking each other, while still ensuring that write operations are performed safely.
+ *
+ * Either ReadLock is being used (by n threads) or WriteLock is being used (by 1 thread). Never both at the same time.
  */
