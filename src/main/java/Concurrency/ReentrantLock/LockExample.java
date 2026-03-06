@@ -40,6 +40,8 @@ public class LockExample {
 
 /*
  * El metodo lock de la clase ReentrantLock , bloquea el código que está en encerrado por el lock y el unlock.
+ * ReentrantLock in Java. The thread that acquires the lock is the only one responsible for releasing it, and it must
+ * release it as many times as it has acquired it.
  *
  * One thread at a time can acquire the lock, and other threads will be blocked until the lock is released. The lock is
  * reentrant, meaning that the same thread can acquire the lock multiple times without causing a deadlock. The lock must
