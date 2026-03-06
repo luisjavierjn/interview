@@ -15,9 +15,9 @@ public class TryLockTimeout {
 
   public static void main(String... reentrantLock) {
     final Thread thread1 = new Thread(() -> writeResource("A"));
-    final Thread thread2 = new Thread(() -> plainReadResource("B"));
-    final Thread thread3 = new Thread(() -> plainReadResource("C"));
-    final Thread thread4 = new Thread(() -> plainReadResource("D"));
+    final Thread thread2 = new Thread(() -> readResource("B"));
+    final Thread thread3 = new Thread(() -> readResource("C"));
+    final Thread thread4 = new Thread(() -> readResource("D"));
 
     thread1.start();
     thread2.start();
@@ -25,24 +25,20 @@ public class TryLockTimeout {
     thread4.start();
   }
 
-  private static void plainReadResource(String id) {
+  private static void readResource(String id) {
     try {
-      readResource(id);
-    } catch (final InterruptedException e) {
-      throw new RuntimeException(e);
-    }
-  }
-
-  private static void readResource(String id) throws InterruptedException {
-    final boolean lockAcquired = readLock.tryLock(5, TimeUnit.SECONDS);
-    if (lockAcquired) {
-      try {
-        System.out.println("id: " + id + " reading from the resource..." + resource + " number: " + lock.getReadLockCount());
-      } finally {
-        readLock.unlock();
+      final boolean lockAcquired = readLock.tryLock(5, TimeUnit.SECONDS);
+      if (lockAcquired) {
+        try {
+          System.out.println("id: " + id + " reading from the resource..." + resource + " number: " + lock.getReadLockCount());
+        } finally {
+          readLock.unlock();
+        }
+      } else {
+        System.out.println("id: " + id + " could not acquire the read lock, skipping resource access.");
       }
-    } else {
-      System.out.println("id: " + id + " could not acquire the read lock, skipping resource access.");
+    } catch (final InterruptedException e) {
+      Thread.currentThread().interrupt();
     }
   }
 
