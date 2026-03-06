@@ -55,10 +55,15 @@ public class TryLockTimeout {
 }
 
 /*
- * In this example, we use the tryLock method to attempt to acquire the read lock without blocking. If a thread cannot
- * acquire the read lock immediately, it will skip accessing the resource and print a message indicating that it could
- * not acquire the lock. This approach allows threads to avoid waiting for the lock, which can help prevent thread
- * starvation and improve overall responsiveness in certain scenarios. However, it may lead to more frequent skipping
- * of resource access if the write lock is held by other threads for extended periods, which could impact the
- * performance of the application.
+ * In this example, we use the tryLock method with a timeout to attempt to acquire the read lock. If a thread cannot
+ * acquire the read lock within the specified timeout, it will skip accessing the resource and print a message
+ * indicating that it could not acquire the lock. This approach allows threads to avoid waiting indefinitely for the
+ * lock, which can help prevent thread starvation and improve overall responsiveness in certain scenarios.
+ *
+ * The writeResource method still uses a regular lock acquisition, as it is essential for ensuring that write operations
+ * are performed safely. However, the readResource method can gracefully handle situations where the read lock is not
+ * available, allowing for better concurrency and performance in scenarios where there are more read operations than
+ * write operations.
+ *
+ * Either ReadLock is being used (by n threads) or WriteLock is being used (by 1 thread). Never both at the same time.
  */

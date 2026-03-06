@@ -45,3 +45,18 @@ public class LockFairnessExample {
     }
   }
 }
+
+/*
+ * In this example, we create a ReentrantReadWriteLock with the fairness policy set to true. This means that threads
+ * will acquire the lock in the order they requested it, which can help prevent thread starvation and ensure that all
+ * threads get a chance to access the shared resource. The readResource method acquires the read lock, allowing multiple
+ * threads to read from the resource concurrently, while the writeResource method acquires the write lock, ensuring that
+ * only one thread can write to the resource at a time. By using a fair lock, we can ensure that threads are treated
+ * fairly and that no thread is indefinitely blocked from accessing the resource.
+ *
+ * Note: Using a fair lock can lead to reduced throughput in some scenarios due to increased context switching and
+ * overhead associated with managing the queue of waiting threads. It's important to consider the specific requirements
+ * of your application when deciding whether to use a fair or non-fair lock.
+ *
+ * Either ReadLock is being used (by n threads) or WriteLock is being used (by 1 thread). Never both at the same time.
+ */
